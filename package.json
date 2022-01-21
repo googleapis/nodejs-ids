@@ -1,6 +1,6 @@
 {
   "name": "@google-cloud/ids",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ids client for Node.js",
   "repository": "googleapis/nodejs-ids",
   "license": "Apache-2.0",
@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@types/mocha": "^8.2.2",
-    "@types/node": "^14.14.44",
+    "@types/node": "^16.0.0",
     "@types/sinon": "^10.0.0",
     "c8": "^7.7.2",
     "gts": "^3.1.0",
