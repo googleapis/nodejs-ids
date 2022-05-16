@@ -106,28 +106,28 @@ export namespace google {
                 namespace IDS {
 
                     /**
-                     * Callback as used by {@link google.cloud.ids.v1.IDS|listEndpoints}.
+                     * Callback as used by {@link google.cloud.ids.v1.IDS#listEndpoints}.
                      * @param error Error, if any
                      * @param [response] ListEndpointsResponse
                      */
                     type ListEndpointsCallback = (error: (Error|null), response?: google.cloud.ids.v1.ListEndpointsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.ids.v1.IDS|getEndpoint}.
+                     * Callback as used by {@link google.cloud.ids.v1.IDS#getEndpoint}.
                      * @param error Error, if any
                      * @param [response] Endpoint
                      */
                     type GetEndpointCallback = (error: (Error|null), response?: google.cloud.ids.v1.Endpoint) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.ids.v1.IDS|createEndpoint}.
+                     * Callback as used by {@link google.cloud.ids.v1.IDS#createEndpoint}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateEndpointCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.ids.v1.IDS|deleteEndpoint}.
+                     * Callback as used by {@link google.cloud.ids.v1.IDS#deleteEndpoint}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -3391,9 +3391,6 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
-            /** FieldOptions unverifiedLazy */
-            unverifiedLazy?: (boolean|null);
-
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -3430,9 +3427,6 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
-
-            /** FieldOptions unverifiedLazy. */
-            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
@@ -5235,35 +5229,35 @@ export namespace google {
         namespace Operations {
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|listOperations}.
+             * Callback as used by {@link google.longrunning.Operations#listOperations}.
              * @param error Error, if any
              * @param [response] ListOperationsResponse
              */
             type ListOperationsCallback = (error: (Error|null), response?: google.longrunning.ListOperationsResponse) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|getOperation}.
+             * Callback as used by {@link google.longrunning.Operations#getOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
             type GetOperationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
+             * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type DeleteOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
+             * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type CancelOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|waitOperation}.
+             * Callback as used by {@link google.longrunning.Operations#waitOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
